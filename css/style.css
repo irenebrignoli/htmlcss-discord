@@ -7,16 +7,6 @@
 /* debug */
 
 
-.debug .header-bottom{
-  height: 400px;
-  background-color: blue;
-}
-
-.debug .header-content{
-  height: 100%;
-  background-color: palevioletred;
-}
-
 .debug main section{
   height: 450px;
 }
@@ -92,6 +82,7 @@ header{
 }
 
 .header-top{
+  font-size: 14px;
   display: flex;
   align-items: center;
   padding: 30px 0;
@@ -110,6 +101,8 @@ header{
   display: flex;
   justify-content: center;
   list-style: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 .nav-col li{
@@ -129,26 +122,64 @@ header{
 .btn{
   text-decoration: none;
   padding: 10px 15px;
-  border-radius: 50%/100%;
+  display: inline-block;
+  border-radius: 20px;
 }
 
-.btn-header{
+.btn-small{
+  font-size: 14px;
+}
+
+.btn-big{
+  font-size: 18px;
+}
+
+.btn-white{
   background-color: #fff;
   color: #000;
 }
 
-.btn-header:visited{
+.btn-white:visited{
   color: #000;
 }
 
+.btn-black{
+  background-color: #000;
+  color:#fff;
+}
+
+.btn-black:visited{
+  color:#fff;
+}
+
 .header-bottom{
-  padding: 40px 0;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .header-content{
-  max-width: 900px;
+  padding: 120px 0;
+  max-width: 800px;
   margin: 0 auto;
+  text-align: center;
 }
+
+.header-content h1{
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.header-content p{
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.margin-right{
+  margin-right: 15px;
+}
+
 
 /* main */
 
