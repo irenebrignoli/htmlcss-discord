@@ -7,18 +7,6 @@
 /* debug */
 
 
-.debug .section-c{
-  height: 700px;
-}
-
-.debug .normal-section{
-  height: 100%;
-}
-
-.debug .normal-section{
-  background-color: green;
-}
-
 .debug footer{
   background-color: black;
 }
@@ -130,6 +118,15 @@ header{
   color:#fff;
 }
 
+.btn-blue{
+  background-color: #7289DA;
+  color: #fff;
+}
+
+.btn-blue:visited{
+  color:#fff;
+}
+
 .header-bottom{
   background-image: url("../img/jumbo.png");
   background-size: cover;
@@ -162,7 +159,7 @@ header{
 /* main */
 
 main section{
-  padding: 90px;
+  padding: 100px;
 }
 
 .flex-section{
@@ -179,7 +176,8 @@ main section{
   padding: 0 60px;
 }
 
-.text-col h2{
+.text-col h2,
+.text-module h2{
   font-size: 42px;
   letter-spacing: 0.5px;
   line-height: 1.2;
@@ -187,7 +185,8 @@ main section{
   margin-bottom: 30px;
 }
 
-.text-col p{
+.text-col p,
+.text-module p{
   font-size: 18px;
   line-height: 1.6;
 }
@@ -204,6 +203,31 @@ main section{
 .section-c{
   background-color: lightgray;
 }
+
+.normal-section{
+  text-align: center;
+}
+
+.text-module{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image-module{
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.normal-section h3{
+  font-size: 22px;
+  margin-bottom: 30px;
+  background-image: url("../img/stars.svg");
+  background-position: top;
+  background-size: contain;
+  display: inline-block;
+  padding: 20px;
+}
+
 
 /* footer */
 
@@ -235,12 +259,4 @@ main section{
 }
 
 
-/* colors 
-
-header #255EE9
-#7289DA
-
-
-
-*/
 
