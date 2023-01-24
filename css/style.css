@@ -7,38 +7,16 @@
 /* debug */
 
 
-.debug main section{
-  height: 450px;
-}
-
 .debug .section-c{
   height: 700px;
 }
 
-.debug .section-a{
-  background-color: #fff;
-}
-
-.debug .section-b,
-.debug .section-c{
-  background-color: lightgray;
-}
-
-.debug .flex-section,
 .debug .normal-section{
   height: 100%;
 }
 
 .debug .normal-section{
   background-color: green;
-}
-
-.debug .image-col{
-  background-color: pink;
-}
-
-.debug .text-col{
-  background-color:lightskyblue;
 }
 
 .debug footer{
@@ -184,11 +162,12 @@ header{
 /* main */
 
 main section{
-  padding: 40px;
+  padding: 90px;
 }
 
 .flex-section{
   display: flex;
+  align-items: center;
 }
 
 .image-col{
@@ -197,10 +176,33 @@ main section{
 
 .text-col{
   width: 40%;
+  padding: 0 60px;
+}
+
+.text-col h2{
+  font-size: 42px;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.text-col p{
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .section-b .flex-section{
   flex-direction: row-reverse;
+}
+
+.section-a{
+  background-color: #fff;
+}
+
+.section-b,
+.section-c{
+  background-color: lightgray;
 }
 
 /* footer */
