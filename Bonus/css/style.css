@@ -72,6 +72,10 @@ header{
   border-radius: 20px;
 }
 
+.btn:hover{
+  box-shadow: 0 8px 15px rgb(0 0 0/20%);
+}
+
 .btn-small{
   font-size: 14px;
 }
@@ -89,6 +93,10 @@ header{
   color: #000;
 }
 
+.btn-white:hover{
+  color:#7289DA;
+}
+
 .btn-black{
   background-color: #000;
   color:#fff;
@@ -98,6 +106,10 @@ header{
   color:#fff;
 }
 
+.btn-black:hover{
+  background-color: #23272A;
+}
+
 .btn-blue{
   background-color: #7289DA;
   color: #fff;
@@ -105,6 +117,10 @@ header{
 
 .btn-blue:visited{
   color:#fff;
+}
+
+.btn-blue:hover{
+  background-color: #9aaef5;
 }
 
 .header-bottom{
