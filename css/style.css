@@ -7,13 +7,9 @@
 /* debug */
 
 
-.debug footer{
-  background-color: black;
-}
-
 .debug .footer-top{
   height: 600px;
-  border-bottom: 2px solid white;
+  
 }
 
 .debug .footer-bottom{
@@ -231,21 +227,56 @@ main section{
 
 /* footer */
 
+
+footer{
+  background-color: #23272A;
+}
+
+.footer-top{
+  padding-top: 60px;
+  border-bottom: 2px solid white;
+  font-size: 12px;
+}
+
 .footer-top,
 .footer-bottom{
   display: flex;
   color: #fff;
-  padding: 20px 0;
 }
 
 .main-col{
-  background-color: purple;
   width: 30%;
+}
+
+.main-col h3{
+  font-size: 22px;
+  margin-bottom: 20px;
+  color:#7289DA;
+}
+
+.ita{
+  margin-bottom: 20px;
+}
+
+.ita img{
+  width: 30px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.ita span{
+  line-height: 12px;
+  vertical-align: middle;
+}
+
+.social-icons i{
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .menu-col{
   display: flex;
-  background-color: aqua;
   width: 100%;
 }
 
@@ -257,6 +288,9 @@ main section{
   justify-content: space-between;
   align-items: center;
 }
+
+
+
 
 
 
