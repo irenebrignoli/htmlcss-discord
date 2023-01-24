@@ -6,17 +6,6 @@
 
 /* debug */
 
-.debug .container *{
-  border: 2px dashed black;
-}
-
-.debug header{
-  background-color: lightblue;
-}
-
-.debug .header-top{
-  background-color:  beige;
-}
 
 .debug .header-bottom{
   height: 400px;
@@ -87,35 +76,69 @@
 
 /* header */
 
+body{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
 .container{
   max-width: 1170px;
   margin: 0 auto;
 }
 
+header{
+  background-color: #255EE9;
+  color:#fff;
+}
+
 .header-top{
-  height: 100px;
   display: flex;
   align-items: center;
+  padding: 30px 0;
 }
 
-.header-top .logo-col,
-.header-top nav,
-.header-top .login-col{
-    padding: 20px 0;
-}
-
-.header-top .logo-col{
+.logo-col,
+.login-col{
   width: 20%;
 }
 
-.header-top nav{
+.nav-col{
   width: 60%;
-  text-align: center;
 }
 
-.header-top .login-col{
-  width: 20%;
+.nav-col ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-col li{
+  padding: 0 20px;
+}
+
+.nav-col a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.login-col{
   text-align: right;
+  color: #000;
+}
+
+.btn{
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 50%/100%;
+}
+
+.btn-header{
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-header:visited{
+  color: #000;
 }
 
 .header-bottom{
@@ -177,3 +200,14 @@ main section{
   justify-content: space-between;
   align-items: center;
 }
+
+
+/* colors 
+
+header #255EE9
+#7289DA
+
+
+
+*/
+
