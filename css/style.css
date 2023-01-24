@@ -10,9 +10,12 @@
   border: 2px dashed black;
 }
 
-.debug .header-top{
-  height: 100px;
+.debug header{
   background-color: lightblue;
+}
+
+.debug .header-top{
+  background-color:  beige;
 }
 
 .debug .header-bottom{
@@ -20,12 +23,7 @@
   background-color: blue;
 }
 
-.debug .menu{
-  height: 100%;
-  background-color:  beige;
-}
-
-.debug .intro-box{
+.debug .header-content{
   height: 100%;
   background-color: palevioletred;
 }
@@ -34,16 +32,16 @@
   height: 450px;
 }
 
-.debug .section3{
+.debug .section-c{
   height: 700px;
 }
 
-.debug .section1{
+.debug .section-a{
   background-color: #fff;
 }
 
-.debug .section2,
-.debug .section3{
+.debug .section-b,
+.debug .section-c{
   background-color: lightgray;
 }
 
@@ -56,11 +54,11 @@
   background-color: green;
 }
 
-.debug .image{
+.debug .image-col{
   background-color: pink;
 }
 
-.debug .info-text{
+.debug .text-col{
   background-color:lightskyblue;
 }
 
@@ -78,7 +76,7 @@
   background-color: lightgreen;
 }
 
-.debug footer #logo,
+.debug footer .logo,
 .debug footer .subscribe{
   background-color: blueviolet;
 }
@@ -95,34 +93,36 @@
 }
 
 .header-top{
-  padding: 10px;
-}
-
-.menu{
+  height: 100px;
   display: flex;
   align-items: center;
-  padding: 10px;
 }
 
-.menu #logo{
+.header-top .logo-col,
+.header-top nav,
+.header-top .login-col{
+    padding: 20px 0;
+}
+
+.header-top .logo-col{
   width: 20%;
 }
 
-.menu nav{
+.header-top nav{
   width: 60%;
   text-align: center;
 }
 
-.menu .login{
+.header-top .login-col{
   width: 20%;
   text-align: right;
 }
 
 .header-bottom{
-  padding: 40px;
+  padding: 40px 0;
 }
 
-.intro-box{
+.header-content{
   max-width: 900px;
   margin: 0 auto;
 }
@@ -137,15 +137,15 @@ main section{
   display: flex;
 }
 
-.image{
+.image-col{
   width: 60%;
 }
 
-.info-text{
+.text-col{
   width: 40%;
 }
 
-.section2 .flex-section{
+.section-b .flex-section{
   flex-direction: row-reverse;
 }
 
@@ -158,14 +158,19 @@ main section{
   padding: 20px 0;
 }
 
-.column1{
+.main-col{
   background-color: purple;
   width: 30%;
 }
 
-.column2{
- background-color: aqua;
- width: calc(70% / 4);
+.menu-col{
+  display: flex;
+  background-color: aqua;
+  width: 100%;
+}
+
+.menu-col .column{
+  width: 25%;
 }
 
 .footer-bottom{
