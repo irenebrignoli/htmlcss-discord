@@ -7,22 +7,6 @@
 /* debug */
 
 
-.debug .footer-top{
-  height: 600px;
-  
-}
-
-.debug .footer-bottom{
-  height: 100px;
-  background-color: lightgreen;
-}
-
-.debug footer .logo,
-.debug footer .subscribe{
-  background-color: blueviolet;
-}
-
-
 
 /* regole css */
 
@@ -233,8 +217,8 @@ footer{
 }
 
 .footer-top{
-  padding-top: 60px;
-  border-bottom: 2px solid white;
+  padding: 60px 0;
+  border-bottom: 1px solid white;
   font-size: 12px;
 }
 
@@ -277,16 +261,29 @@ footer{
 
 .menu-col{
   display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
-.menu-col .column{
-  width: 25%;
+.column ul{
+  color:#7289DA;
+  list-style: none;
+  line-height: 2.5;
+}
+
+.column a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.column a:visited{
+  color: #fff;
 }
 
 .footer-bottom{
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0 60px 0;
 }
 
 
